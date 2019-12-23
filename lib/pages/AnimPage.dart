@@ -5,7 +5,6 @@ import 'package:flutter_app/views/AnimView.dart';
 class AnimPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return _AnimPageState();
   }
 }

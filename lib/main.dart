@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/DialogShow.dart';
-import 'package:flutter_app/pages/HomePage.dart';
 import 'package:flutter_app/pages/chapter_2_2/NewRoute.dart';
-import 'package:flutter_app/pages/chapter_3_1/ParentBox.dart';
+import 'package:flutter_app/pages/chapter_4_4/TestPage.dart';
+import 'package:flutter_app/pages/chapter_4_5/TestStackPage.dart';
+import 'package:flutter_app/pages/chapter_5_3/TextDecorateBoxPage.dart';
+import 'package:flutter_app/pages/chapter_5_5/TestContainerPage.dart';
+import 'package:flutter_app/pages/chapter_5_6/ScaffoldRoute.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,7 +21,16 @@ class MyApp extends StatelessWidget {
       routes: {
         "new_page": (context) => NewRoute(),
       },
-      home: HomePage(),
+      home: ScaffoldRoute(),
+//      home: Scaffold(
+//       body: Column(
+//         children: <Widget>[
+////          TestStackPage(),
+////           TextDecorateBoxPage(),
+//           TestContainerPage()
+//         ],
+//       ),
+//      ),
     );
   }
 }
