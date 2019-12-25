@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/DialogShow.dart';
 import 'package:flutter_app/pages/chapter_2_2/NewRoute.dart';
-import 'package:flutter_app/pages/chapter_4_4/TestPage.dart';
-import 'package:flutter_app/pages/chapter_4_5/TestStackPage.dart';
-import 'package:flutter_app/pages/chapter_5_3/TextDecorateBoxPage.dart';
-import 'package:flutter_app/pages/chapter_5_5/TestContainerPage.dart';
-import 'package:flutter_app/pages/chapter_5_6/ScaffoldRoute.dart';
+import 'package:flutter_app/pages/chapter_7_4/TestThemRoute.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +17,8 @@ class MyApp extends StatelessWidget {
       routes: {
         "new_page": (context) => NewRoute(),
       },
-      home: ScaffoldRoute(),
+      // 每个章节切换Widget
+      home: TestThemRoute(),
 //      home: Scaffold(
 //       body: Column(
 //         children: <Widget>[

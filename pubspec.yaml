@@ -50,6 +50,8 @@ flutter:
   assets:
     - images/icon_nav_1.png
     - images/icon_nav_2.png
+    - images/girl_1.jpg
+    - images/girl_2.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
