@@ -8,12 +8,13 @@ class TestThemRoute extends StatefulWidget {
 }
 
 class _TestThemRouteState extends State<TestThemRoute> {
-  MaterialColor _themeColor =Colors.purple;
+  MaterialColor _themeColor = Colors.purple;
 
   @override
   Widget build(BuildContext context) {
     ThemeData _themeData = Theme.of(context);
-    return Theme(
+    return Material(
+        child: Theme(
       data: ThemeData(
           primarySwatch: _themeColor,
           iconTheme: IconThemeData(color: _themeColor)),
@@ -43,13 +44,13 @@ class _TestThemRouteState extends State<TestThemRoute> {
           onPressed: () {
             setState(() {
               return _themeColor == Colors.orangeAccent
-                  ? Colors.teal
-                  : Colors.purple;
+                  ? Colors.red
+                  : Colors.teal;
             });
           },
           child: Icon(Icons.nature_people),
         ),
       ),
-    );
+    ));
   }
 }
