@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/DialogShow.dart';
 import 'package:flutter_app/pages/chapter_10_1/TestGradientButtonPage.dart';
+import 'package:flutter_app/pages/chapter_11_3/HttpTestRoute.dart';
+import 'package:flutter_app/pages/chapter_11_3/TestDioPage.dart';
 import 'package:flutter_app/pages/chapter_2_2/NewRoute.dart';
 import 'package:flutter_app/pages/chapter_7_4/TestThemRoute.dart';
 import 'package:flutter_app/pages/chapter_7_5/TestFutureBuilder.dart';
@@ -29,7 +31,7 @@ class MyApp extends StatelessWidget {
       },
       // 每个章节切换Widget
       home:Scaffold(
-        body:  TestGradientButtonPage(),
+        body:  TestDioPage(),
       ),
 //      home: Scaffold(
 //       body: Column(
